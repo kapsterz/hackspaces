@@ -1,0 +1,8 @@
+from django.shortcuts import render
+
+
+def chat_view(request):
+    return render(request, 'chat/chat.html')
+
+def index(request):
+    return render(request, 'chat/index.html')
